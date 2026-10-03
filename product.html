@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tomatoes | Woodmart</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="topbar">
+    <div class="wrap topbar-row">
+      <nav>
+        <a href="shop.html">About Us</a>
+        <a href="shop.html">Contact Us</a>
+        <a href="shop.html">Delivery</a>
+      </nav>
+      <nav>
+        <a href="shop.html">Store Locations</a>
+        <a href="tel:9562387908">(956) 238-7908</a>
+        <a href="wishlist.html">Wishlist</a>
+        <a href="checkout.html">Login / Register</a>
+      </nav>
+    </div>
+  </div>
+  <header class="head">
+    <div class="wrap head-row">
+      <a class="logo" href="index.html">
+        <img src="assets/img/logo.png" alt="Woodmart">
+      </a>
+      <div class="cat-wrap">
+        <button class="cat-btn" type="button" data-cats><i class="ico ico-menu"></i> All Categories</button>
+        <div class="cat-box" data-catbox>
+          <a href="shop.html">Vegetables & Fruits</a>
+          <a href="shop.html">Bakery</a>
+          <a href="shop.html">Beverages</a>
+        </div>
+      </div>
+      <form class="search" action="shop.html"><input type="search" name="q" placeholder="Search for products"></form>
+      <nav class="quick">
+        <a href="shop.html">Promotions</a>
+        <a href="shop.html">Ideas For Breakfast</a>
+        <a href="shop.html">Weekly Discounts</a>
+      </nav>
+      <a class="cart-btn" href="cart.html" aria-label="Cart"><i class="ico ico-cart"></i><span data-count>2</span></a>
+    </div>
+    <div class="m-head">
+      <a class="logo" href="index.html">
+        <img src="assets/img/logo.png" alt="Woodmart">
+      </a>
+      <div class="m-tools">
+        <button class="icon-btn" type="button" data-menu aria-label="Open menu"><i class="ico ico-menu"></i></button>
+        <form class="search" action="shop.html">
+          <input type="search" name="q" placeholder="Search for products">
+        </form>
+        <a class="icon-btn" href="checkout.html" aria-label="Account"><i class="ico ico-user"></i></a>
+      </div>
+    </div>
+  </header>
+  <div class="drawer" data-drawer>
+    <div class="drawer-tabs">
+      <button type="button" class="on" data-tab="cats">Categories</button>
+      <button type="button" data-tab="links">Menu</button>
+    </div>
+    <div class="drawer-panel" data-panel="cats">
+      <a href="shop.html">Vegetables & Fruits <span>›</span></a>
+      <a href="shop.html">Vegan Meat <span>›</span></a>
+      <a href="shop.html">Seafood <span>›</span></a>
+      <a href="shop.html">Dairy <span>›</span></a>
+      <a href="shop.html">Bakery <span>›</span></a>
+      <a href="shop.html">Beverages <span>›</span></a>
+      <a href="shop.html">Weekly Discounts</a>
+    </div>
+    <div class="drawer-panel" data-panel="links" hidden>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="wishlist.html">Wishlist</a>
+      <a href="cart.html">Cart</a>
+      <a href="checkout.html">Checkout</a>
+      <a href="shop.html">About Us</a>
+      <a href="shop.html">Contact Us</a>
+      <a href="shop.html">Delivery</a>
+    </div>
+  </div>
+  <div class="drawer-bg" data-drawer-bg></div>
+  <nav class="m-bar">
+    <button type="button" data-menu><span><i class="ico ico-menu"></i></span><small>Menu</small></button>
+    <a href="wishlist.html"><span><i class="ico ico-heart"></i></span><small>Wishlist</small></a>
+    <a href="cart.html"><span><i class="ico ico-cart"></i></span><small>Cart</small></a>
+  </nav>
+
+  <main class="page">
+    <div class="wrap">
+      <p class="crumbs"><a href="index.html">Home</a> / <a href="shop.html">Shop</a> / <a href="shop.html">Vegetables</a> / Tomatoes</p>
+      <div class="product-layout">
+        <div class="photo-box">
+          <span class="badge hot">HOT</span>
+          <img src="assets/img/tomato.png" alt="Fresh tomatoes">
+        </div>
+        <div class="product-info">
+          <h1>Tomatoes</h1>
+          <p class="tags">Gluten Free · <b>Vegan</b></p>
+          <p class="price"><s>$6.40</s> <b>$5.52</b> / 1kg</p>
+          <div class="buy-row">
+            <div class="qty" data-qty>
+              <button type="button" data-minus>-</button>
+              <input type="text" value="1">
+              <button type="button" data-plus>+</button>
+            </div>
+            <a class="btn" href="cart.html">Add To Cart</a>
+            <button class="heart" type="button" aria-label="Add to wishlist"></button>
+          </div>
+          <table class="facts">
+            <tr><td>Calories</td><td>Protein</td><td>Fats</td><td>Carbohydrates</td></tr>
+            <tr><td>18 kcal</td><td>0.9 g</td><td>0.2 g</td><td>3.9 g</td></tr>
+          </table>
+          <h3 class="block-title">General info</h3>
+          <table class="facts">
+            <tr><td>Shelf Life</td><td>7 days</td></tr>
+            <tr><td>Storage Temperature</td><td>7…15</td></tr>
+            <tr><td>Country</td><td>Local farm</td></tr>
+            <tr><td>Method</td><td>Fresh</td></tr>
+          </table>
+          <h3 class="block-title">Nutrition facts, 100 g</h3>
+          <table class="facts">
+            <tr><td>Calories</td><td>18 kcal</td></tr>
+            <tr><td>Protein</td><td>0.9 g</td></tr>
+          </table>
+        </div>
+      </div>
+
+      <section class="reviews">
+        <div>
+          <h2>Customer Reviews</h2>
+          <p class="stars" aria-label="5 stars"><span></span><span></span><span></span><span></span><span></span></p>
+          <p>0 reviews</p>
+        </div>
+        <form>
+          <h3>Be the first to review “Tomatoes”</h3>
+          <p>Your email address will not be published.</p>
+          <label>Your rating</label>
+          <p class="stars empty" aria-label="Your rating"><span></span><span></span><span></span><span></span><span></span></p>
+          <label>Your review</label>
+          <textarea></textarea>
+          <label>Name</label>
+          <input type="text">
+          <label>Email</label>
+          <input type="email">
+          <button class="btn" type="button">Submit</button>
+        </form>
+      </section>
+
+      <section class="section">
+        <div class="section-head"><h2>Related products</h2></div>
+        <div class="grid four">
+          <article class="pcard">
+            <div class="pcard-img"><a href="product.html"><img src="assets/img/carrot.png" alt="Carrot"></a></div>
+            <h3><a href="product.html">Carrot</a></h3>
+            <p class="price"><b>$2.13</b> / each</p>
+          </article>
+          <article class="pcard">
+            <div class="pcard-img"><a href="product.html"><img src="assets/img/cucumber.png" alt="Cucumber"></a></div>
+            <h3><a href="product.html">Cucumber</a></h3>
+            <p class="price"><b>$2.21</b> / each</p>
+          </article>
+          <article class="pcard">
+            <div class="pcard-img"><a href="product.html"><img src="assets/img/pepper.png" alt="Peppers"></a></div>
+            <h3><a href="product.html">Peppers</a></h3>
+            <p class="price"><b>$1.44</b> / each</p>
+          </article>
+          <article class="pcard">
+            <div class="pcard-img"><a href="product.html"><img src="assets/img/apple.png" alt="Apple"></a></div>
+            <h3><a href="product.html">Apple</a></h3>
+            <p class="price"><b>$3.20</b> / 1kg</p>
+          </article>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <div class="wrap">
+      <div class="foot-grid">
+        <div>
+          <a class="logo" href="index.html"><img src="assets/img/logo-white.png" alt="Woodmart"></a>
+          <p>From frozen veggie products to vegan alternatives, we have something for everyone.</p>
+        </div>
+        <div><h3>Popular Categories</h3><a href="shop.html">Vegetables & Fruits</a><a href="shop.html">Bakery</a></div>
+        <div><h3>Useful Links</h3><a href="index.html">Home</a><a href="cart.html">Cart</a></div>
+        <div><h3>Social links</h3><div class="social"><a href="#" aria-label="Facebook"><i class="ico ico-fb"></i></a><a href="#" aria-label="X"><i class="ico ico-x"></i></a></div></div>
+      </div>
+      <p class="copy">Woodmart vegetarian grocery</p>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
